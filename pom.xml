@@ -10,7 +10,7 @@
 	<packaging>war</packaging>
 
 	<name>EventTracker</name>
-	<description>An app to track our Events</description>
+	<description>An app to track our events</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
