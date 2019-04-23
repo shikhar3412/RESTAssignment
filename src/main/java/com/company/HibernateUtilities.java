@@ -15,7 +15,7 @@ public class HibernateUtilities {
 	            serviceRegistry = new StandardServiceRegistryBuilder().applySettings(configuration.getProperties()).build();
 	            sessionFactory= configuration.buildSessionFactory(serviceRegistry);
 	        } catch (HibernateException ex) {
-	            // Make sure you log the exception, as it might be swallowe
+	            // Make sure you log the exception, as it might be swallowed
 	            System.err.println("SessionFactory creation failed." + ex);
 	            
 	        }
